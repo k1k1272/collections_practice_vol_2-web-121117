@@ -30,5 +30,5 @@ def find_cool(array)
 end
 
 def organize_schools(array)
-  array.values.values
+  array.values
 end
