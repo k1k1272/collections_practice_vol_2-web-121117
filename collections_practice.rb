@@ -18,3 +18,7 @@ end
 def count_elements(array)
   array.uniq.each { |item| item[:count] = array.count(item)}
 end
+
+def merge_data(keys, data)
+
+end
