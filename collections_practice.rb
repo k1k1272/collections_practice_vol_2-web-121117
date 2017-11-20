@@ -20,5 +20,12 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  p keys, data
+  final = []
+  
+    data.each do |set| 
+      set.each do |k,v|
+        final << v
+      end
+    end
+  final.map.with_index { |item, idx| keys[idx].merge(item) } 
 end
