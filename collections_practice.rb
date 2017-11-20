@@ -21,11 +21,10 @@ end
 
 def merge_data(keys, data)
   final = []
-  
-    data.each do |set| 
-      set.each do |k,v|
-        final << v
-      end
+  data.each do |set|
+    set.each do |k,v|
+      final << v
     end
-  final.map.with_index { |item, idx| keys[idx].merge(item) } 
+  end
+  final.map.with_index { |item, idx| keys[idx].merge(item) }
 end
