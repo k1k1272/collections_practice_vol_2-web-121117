@@ -30,5 +30,6 @@ def find_cool(array)
 end
 
 def organize_schools(array)
-  array.values
+  hash = {}
+  array.values.each { |item| item.values.each { |location| hash[location] = []}}
 end
