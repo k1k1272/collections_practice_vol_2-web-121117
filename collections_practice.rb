@@ -26,4 +26,5 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
+  array.select { |item| item if item.values.include?("cool")}
 end
