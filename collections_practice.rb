@@ -25,5 +25,5 @@ def merge_data(keys, data)
   final.map.with_index { |item, idx| keys[idx].merge(item) }
 end
 
-def find_cool(item)
+def find_cool(array)
 end
