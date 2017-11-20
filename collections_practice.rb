@@ -24,3 +24,6 @@ def merge_data(keys, data)
   data.each { |item| item.map { |k,v| final << v } }
   final.map.with_index { |item, idx| keys[idx].merge(item) }
 end
+
+def find_cool(item)
+end
