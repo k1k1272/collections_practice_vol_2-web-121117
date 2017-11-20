@@ -33,4 +33,5 @@ def organize_schools(array)
   hash = {}
   array.values.each { |item| item.values.each { |location| hash[location] = []}}
   array.each {|set| set.each {|k, v| hash[v] = k}}
+  hash
 end
